@@ -1,0 +1,25 @@
+{
+  "name": "podcast-app",
+  "version": "1.0.0",
+  "description": "Vladilen Podcast app",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack serve --mode=development --open",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Anton Popenkov",
+  "license": "ISC",
+  "devDependencies": {
+    "@webpack-cli/serve": "^1.5.1",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
